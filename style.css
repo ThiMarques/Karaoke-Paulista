@@ -559,6 +559,13 @@ footer .social a:hover {
         justify-content: space-between;
         grid-auto-flow: column;
     }
+    
+    #promotions .cards.grid {
+        margin-right: 2rem;
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+    }
 
     /* services */
     .cards {
