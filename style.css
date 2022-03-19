@@ -316,7 +316,6 @@ nav.show div.icon-close {
 #promotions .container {
     margin: 0;
     text-align: center;
-    padding: calc(5rem + var(--header-height)) 0;
 }
 
 #promotions .image {
