@@ -602,7 +602,7 @@ footer .social a:hover {
 
     #promotions .image::before{
         content: '';
-        height: 70%;
+        height: 60%;
         width: 100%;
         background: var(--base-color-second);
         position: absolute;
