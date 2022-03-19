@@ -349,6 +349,28 @@ nav.show div.icon-close {
     text-align: center;
 }
 
+#promotions .cards.grid {
+    margin-right: 2rem;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+#promotions .checkmark {
+    width: 1rem;
+}
+
+#promotions li {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#promotions p {
+    margin-left: 1.5rem;
+}
+
 /*=== ROOMS ===*/
 .cards.grid {
     gap: 1.5rem;
@@ -559,12 +581,35 @@ footer .social a:hover {
         justify-content: space-between;
         grid-auto-flow: column;
     }
-    
+
     #promotions .cards.grid {
         margin-right: 2rem;
         display: flex;
         align-items: flex-end;
         justify-content: center;
+    }
+
+    #promotions .checkmark {
+        width: 1rem;
+        margin-right: 1.5rem;
+    }
+
+    #promotions li {
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    #promotions .image::before{
+        content: '';
+        height: 70%;
+        width: 100%;
+        background: var(--base-color-second);
+        position: absolute;
+        top: -8.3%;
+        left: -33%;
+        z-index: 0;
     }
 
     /* services */
