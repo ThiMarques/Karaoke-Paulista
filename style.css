@@ -357,17 +357,18 @@ nav.show div.icon-close {
 
 #promotions .checkmark {
     width: 1rem;
+    margin-right: 1.5rem;
 }
 
 #promotions li {
     display: flex;
     text-align: center;
     align-items: center;
-    justify-content: space-between;
 }
 
-#promotions p {
-    margin-left: 1.5rem;
+#promotions ul li p {
+    text-align: left;
+    display: flex;
 }
 
 /*=== ROOMS ===*/
@@ -403,6 +404,15 @@ nav.show div.icon-close {
 #services h4 {
     margin-top: 1rem;
     margin-bottom: 1rem;
+}
+
+#services .cards {
+    grid-template-columns: 1fr;
+}
+
+#services .container {
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /*=== CONTACT ===*/
@@ -597,7 +607,6 @@ footer .social a:hover {
         display: flex;
         text-align: center;
         align-items: center;
-        justify-content: space-between;
     }
 
     #promotions .image::before{
@@ -609,6 +618,10 @@ footer .social a:hover {
         top: -8.3%;
         left: -33%;
         z-index: 0;
+    }
+    
+    #promotions ul li p {
+    text-align: left;
     }
 
     /* services */
