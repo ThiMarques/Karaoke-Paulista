@@ -624,9 +624,9 @@ footer .social a:hover {
     text-align: left;
     }
 
-    /* services */
+    /* rooms */
     .cards {
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
     }
 
     .card {
@@ -635,10 +635,9 @@ footer .social a:hover {
     }
 
     /* services */
-    #services .cards {
-        grid-template-columns: 1fr;
+    #services .container.grid .cards.grid {
+        grid-template-columns: 1fr 1fr 1fr;
     }
-    
     
     #services .container {
         margin-left: auto;
