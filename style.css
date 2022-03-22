@@ -582,6 +582,10 @@ footer .social a:hover {
         max-width: 24rem;
         text-align: left;
     }
+    
+    #home .text .title {
+    text-align: left;
+    }
 
     /* promotions */
 
