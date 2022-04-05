@@ -309,16 +309,16 @@ nav.show div.icon-close {
 }
 
 #home .cards.grid {
+    margin-top: 4rem;
+    margin-right: 1.5rem;
+    margin-left: 1.5rem;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-
-    margin-top: 8.5rem; 
 }
 
 #home .card{
     flex: 1 1 150px;
-    margin: 0.5rem;
 }
 
 #home .card-img {
@@ -436,6 +436,9 @@ nav.show div.icon-close {
 }
 
 #services .cards.grid {
+    margin-left:1.5rem;
+    margin-right:1.5rem; 
+    
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
