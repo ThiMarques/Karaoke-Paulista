@@ -308,28 +308,6 @@ nav.show div.icon-close {
     margin-bottom: 2rem;
 }
 
-#home .cards.grid {
-    margin-top: 4rem;
-    margin-right: 1.5rem;
-    margin-left: 1.5rem;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-#home .card{
-    flex: 1 1 150px;
-}
-
-#home .card-img {
-    width: 20%;
-    height: auto;
-
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 1rem;
-}
-
 /*=== PROMOTIONS ===*/
 #promotions {
     background: #111111;
